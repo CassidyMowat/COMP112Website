@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+	<!-- cmowat contact_us.html -->
+	<title>Code Web Development</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js" type="text/javascript"></script>
+	</head>
+		<body>
+			<div id="header">
+            <a href="index.html"><img src="code_logo_small.png" width="380" height="147" id="logo" alt="The Code Logo"></a>
+  				<ul id="navigation">
+    				<li><a href="index.html">Home</a></li>
+   					<li><a href="about_us.html">About us</a></li>
+    				<li><a href="services.html">Services</a></li>
+    				<li id="active">Contact us</li>
+  				</ul>
+			</div>
+			<div id="main"> <!-- These div elements control white bar filled with content -->
+  			<div id="width">
+            <h1>Contact Us</h1>
+            <!-- This script is specific to the University of Otago -->
+    		<form method="post" enctype="x-www-form-urlencoded" action="http://web112.otago.ac.nz/112bin/112formslab.cgi" onsubmit="return validate()">
+            <div>
+			<input type="hidden" name="recipient" value="mowca765@student.otago.ac.nz">
+			<input type="hidden" name="subject" value="Code business enquiry">
+			<input type="hidden" name="followup-page" value="http://www.cs.otago.ac.nz/comp112/followup.html">
+            </div>
+            <fieldset class="your_details">
+			<legend>Your Details</legend>
+				<ul>
+					<li>
+						<label for="fname">Firstname:</label><input type="text" id="fname">
+                        <p id="fname_error" class="error"></p>
+					</li>
+					<li>
+						<label for="sname">Surname:</label><input type="text" id="sname">
+                        <p id="sname_error" class="error"></p>
+					</li>
+					<li>
+						<label for="sender">Email address:</label><input type="text" id="sender">
+                        <p id="sender_error" class="error"></p>
+					</li>
+					<li>
+						<label for="phone">Phone number:</label><input type="text" id="phone">
+                        <p id="phone_error" class="error"></p>
+					</li>
+				</ul>
+            </fieldset>
+            <fieldset class="work_required">
+			<legend>Work Required</legend>
+				<ul>
+					<li class="checkbox">
+						<label for="web_development">Web Development</label><input type="checkbox" name="work_required" id="web_development" value="web development">
+					</li>
+					<li class="checkbox">
+						<label for="mobile_and_tablet">Mobile &amp; Tablet</label><input type="checkbox" name="work_required" id="mobile_and_tablet" value="mobile and tablet">
+					</li>
+					<li class="checkbox">
+						<label for="web_application">Web Application</label><input type="checkbox" name="work_required" id="web_application" value="web application">
+					</li>
+                    <li class="checkbox">
+						<label for="other">Other<input type="checkbox" name="work_required" id="other" value="other"></label>
+					</li>
+                </ul>
+                <div>
+                <p>If you selected other please specify here:</p>
+                <label for="other_comments"><textarea cols="40" rows="4" id="other_comments"></textarea></label>
+                <p id="other_error" class="error"></p>
+                </div> 
+			</fieldset>
+            <fieldset>
+            <legend>Other Comments</legend>
+            <div>
+            <label for="comments"><textarea cols="40" rows="4" id="comments">Type comments here</textarea></label>
+            </div>
+            </fieldset>
+            <fieldset id="form_controls">
+                <legend class="hidden">Form Buttons</legend>
+                <input type="submit" value="Submit Info" name="submit">
+                <input type="reset" value="Reset" name="reset">
+            </fieldset>
+            </form>
+            <h2 class="page_heading">Our Details</h2>
+            <p>133 Union St East<br>Dunedin<br>New Zealand</p>
+            <p>0800 353535</p>
+            <p>Hours: 8am - 8pm, Mon - Fri</p>
+  			</div>
+			</div>
+		<div id="footer">
+  			<p id="footer_left">COMP112 project 2014</p>
+  			<p>Cassidy Mowat</p>
+		</div>
+	</body>
+</html>

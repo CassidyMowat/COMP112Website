@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+	<!-- cmowat index.html -->
+	<title>Code Web Development</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+		<body>
+        <div id="wrap">
+			<div id="header">
+            <a href="index.html"><img src="code_logo_small.png" width="380" height="147" id="logo" alt="The Code Logo"></a>
+  			<ul id="navigation">
+    			<li id="active">Home</li>
+   				<li><a href="about_us.html">About us</a></li>
+    			<li><a href="services.html">Services</a></li>
+    			<li><a href="contact_us.html">Contact us</a></li>
+  			</ul>
+			</div>
+            <div id="abc">
+			<h1>We are a small web development company that can help you with your web needs, whatever they may be</h1>
+			<div id="main"> <!-- These div elements control white bar filled with content -->
+  			<div id="width">
+    		<h2>Code Web Development is a company made up of experienced web developers that specialize in helping small to medium sized business, using the latest technology on offer.</h2>
+    		<div class="col"> <img src="development.gif" width="71" height="76" alt="Web Development icon">
+      			<h3><a href="services.html">Web Development</a></h3>
+      			<p>Our team of developers are experienced in both web development and web design. They use the latest software and techniques this means they are able to provide you with the best possible result.</p>
+      			<p>You will be able to work closely with the developers in order to make sure the final product is perfect for your needs.</p>
+    		</div>
+    		<div class="col"> <img src="phones-test.gif" width="71" height="76" alt="Mobile and Tablet">
+      			<h3><a href="services.html">Mobile &amp; Tablet</a></h3>
+      			<p>Want to reach as many people as possible with your content? Our team can optimize your website for mobile devices.</p>
+      			<p>With the increased popularity of mobile devices it is becoming ever more important for people to be able to access your content from more places than ever before.</p>
+    		</div>
+    		<div class="col"><img src="app.gif" width="71" height="76" alt="Web applications">
+      			<h3><a href="services.html">Web Applications</a></h3>
+      			<p>If a static web page is just not enough for your needs then our developers can meet your requirements by creating complex dynamic web applications.</p>
+      			<p>Our team is able to use the latest techniques in order to make a web application that can do whatever is needed.</p>
+    		</div>
+  			</div>
+			</div>
+            </div>
+        </div>
+		<div id="footer">
+  			<p id="footer_left">COMP112 project 2014</p>
+  			<p>Cassidy Mowat</p>
+		</div>
+	</body>
+</html>

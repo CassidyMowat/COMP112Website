@@ -1,0 +1,207 @@
+/* cmowat style.css COMP112 Project 2014 */
+
+html {
+}
+
+body {
+	width: 900px;
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url('scan-line.png');
+	height: 100%;
+}
+
+/* Styling the header and navigaion */
+#header {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #2AABE2;
+	margin-bottom: 20px;
+}
+
+#active{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #E5E5E5;
+	background-color: #2AABE2;
+
+}
+#navigation li {
+	display: inline;
+	position: relative;
+	left: 67px;
+	bottom: 7px;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-size: 23px;
+}
+
+#navigation {
+	display: inline;
+}
+
+/* Styling page headers */
+h1 {
+	text-align: center;
+	color: #373737;
+	background-color: transparent; /* Triggers css 2.1 warning */
+	margin: 10px;
+}
+
+h2 {
+	color: #373737;
+	text-align: center;
+	background-color: #F4F4F4;
+}
+
+.page_heading {
+	color: #2AABE2;
+	background-color: #F4F4F4;
+	text-align: left;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
+/* Styling the links in different states */
+#navigation a:link{
+	text-decoration: none;
+	color: #5B5B5C;
+	background-color: transparent; /* Triggers css 2.1 warning */
+}
+
+#navigation a:visited {
+	text-decoration: none;
+	color: #5B5B5C;
+	background-color: transparent; /* Triggers css 2.1 warning */
+}
+
+h3 a:link {
+	color: #2AABE2;
+ 	background-color: #F4F4F4;
+	text-decoration: none;
+}
+
+h3 a:visited {
+	color: #2AABE2;
+ 	background-color: #F4F4F4;
+	text-decoration: none;
+}
+
+/* Styling the body of the page */
+#main {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #F4F4F4;
+	color: inherit;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #5B5B5C;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	padding-bottom:50px;
+}
+
+#width {
+	width: 900px;
+	margin: auto;
+}
+
+/* Styling the columns on index.html */
+.col {
+	float: left;
+	width: 285px;
+	height: 345px;
+	text-align: center;
+	font-size: 12pt;
+	margin-right: 15px;
+}
+
+/* Styling the footer */
+#footer {
+	clear: both;
+	position: fixed;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #2AABE2;
+	width: 900px;
+	height: 20px;
+	margin: auto;
+	background-color: #F4F4F4;
+	color: inherit;
+	padding: 4px;
+	bottom: 0;
+}
+
+#footer p {
+	text-align: right;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+#footer_left {
+	float: left;
+}
+
+/* Styling for the map on about_us.html */
+#map_canvas {
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+/* Form styling on contact_us.html */
+.hidden {
+	display: none;	
+}
+
+#form_controls {
+	border: none;
+}
+
+legend {
+	color: #2AABE2;
+	background-color: #F4F4F4;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.your_details label {
+	float: left;
+	width: 150px;
+}
+
+.your_details input {
+	width: 250px;
+}
+
+.work_required li{
+	float: left;
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+.work_required div {
+	clear: both;
+}
+
+.error {
+	position: relative;
+	left: 405px;
+	color: #FF0000;
+	background-color: #C7C7C7;
+	width: 240px;
+	font-size: 15px;
+	bottom: 30px;
+}
+
+.work_required .error {
+	left: 345px;
+}
